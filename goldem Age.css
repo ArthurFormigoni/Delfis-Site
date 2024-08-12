@@ -356,3 +356,198 @@ p{
     font-style: normal;
   }
   
+  *{
+    padding: 0px;
+    margin: 0px;
+}
+
+.general {
+    position: relative;
+    width: 1519px;
+    height: 1024px;
+    background: #064273;
+    
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+  
+    position: absolute;
+    width: 639px;
+    height: 364px;
+    left: 64px;
+    top: 80px;
+  }
+
+  .plano-premium-hugo {
+    width: 639px;
+    height: 184px;
+  
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 92px;
+  
+    color: #FFFFFF;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .descricao-longa {
+    width: 591px;
+    height: 66px;
+  
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+  
+    color: #FFFFFF;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+   
+  .primary-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 40px;
+    gap: 10px;
+  
+    width: 108px;
+    height: 36px;
+  
+    background: #FFFFFF;
+    border-radius: 40px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .assinar {
+    width: 108px;
+    height: 18px;
+  
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 18px;
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+  
+    position: absolute;
+    width: 1312px;
+    height: 238px;
+    left: 63px;
+    top: 558px;
+  }
+
+  .frame {
+    box-sizing: border-box;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 22px;
+    gap: 16px;
+  
+    width: 310px;
+    height: 238px;
+  
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -8px -8px 24px rgba(0, 0, 0, 0.25), inset 4px 4px 24px rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: auto;
+    flex-grow: 0;
+    transition: 1s;
+  }
+  .icons {
+    width: 32px;
+    height: 32px;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .vector {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  
+  
+  .title {
+    width: 62px;
+    height: 30px;
+  
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  
+    color: #FFFFFF;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .descricao-curta {
+    width: 266px;
+    height: 96px;
+  
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  
+    color: #FFFFFF;
+  
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+.frame:hover{
+  
+    width: 350px;
+    height: 288px;
+    transition: 1s;
+} 
