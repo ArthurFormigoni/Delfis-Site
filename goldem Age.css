@@ -362,7 +362,7 @@ p{
 }
 
 .general {
-    position: relative;
+    
     width: 1519px;
     height: 1024px;
     background: #064273;
@@ -370,13 +370,14 @@ p{
   }
 
   .content {
+    margin: 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
   
-    position: absolute;
+   
     width: 639px;
     height: 364px;
     left: 64px;
@@ -387,7 +388,7 @@ p{
     width: 639px;
     height: 184px;
   
-    font-family: 'Bitter';
+    
     font-style: normal;
     font-weight: 800;
     font-size: 72px;
@@ -405,7 +406,7 @@ p{
     width: 591px;
     height: 66px;
   
-    font-family: 'Space Mono';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -442,7 +443,7 @@ p{
     width: 108px;
     height: 18px;
   
-    font-family: 'Space Mono';
+    
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -463,7 +464,7 @@ p{
     padding: 0px;
     gap: 24px;
   
-    position: absolute;
+    
     width: 1312px;
     height: 238px;
     left: 63px;
@@ -471,6 +472,7 @@ p{
   }
 
   .frame {
+    margin: 20px;
     box-sizing: border-box;
   
     display: flex;
@@ -502,7 +504,7 @@ p{
     flex-grow: 0;
   }
   .vector {
-    position: absolute;
+    
     left: 0%;
     right: 0%;
     top: 0%;
@@ -514,7 +516,7 @@ p{
     width: 62px;
     height: 30px;
   
-    font-family: 'Space Mono';
+    
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -531,7 +533,7 @@ p{
     width: 266px;
     height: 96px;
   
-    font-family: 'Space Mono';
+   
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -550,4 +552,5 @@ p{
     width: 350px;
     height: 288px;
     transition: 1s;
-} 
+}    
+
